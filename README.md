@@ -72,10 +72,7 @@ Fotos do protótipo desenvolvido estão disponíveis na pasta:
 
 Projeto desenvolvido no curso Técnico em Eletromecânica do Centro de Educação Profissional de Paragominas.
 
-## Autores
+## Autor
 
-Christopher Kauê Ferreira Rebelo  
-Cláudio Costa Pinheiro  
 Elias Antony Conceição Silva  
-Iuri da Silva Costa  
-Valdinaldo Ferreira Silva
+
