@@ -74,5 +74,5 @@ Projeto desenvolvido no curso Técnico em Eletromecânica do Centro de Educaçã
 
 ## Autor
 
-Elias Antony Conceição Silva  
+  Elias Antony Conceição Silva  
 
