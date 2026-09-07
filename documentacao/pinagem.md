@@ -1,4 +1,4 @@
-# Pinagem do Sistema
+# Pinagem do Sistema , espe 32
 
 | Componente | Função | GPIO ESP32 |
 |---|---|---|
