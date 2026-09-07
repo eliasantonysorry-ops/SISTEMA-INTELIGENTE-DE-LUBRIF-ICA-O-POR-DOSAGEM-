@@ -103,3 +103,5 @@ Salva na memória
 ↓
 
 LED azul
+
+
