@@ -130,3 +130,5 @@ O módulo LED RGB é utilizado para indicar visualmente diferentes estados de fu
 Trabalho de Conclusão de Curso – Técnico em Eletromecânica.
 
 Projeto: Sistema Inteligente de Lubrificação por Dosagem.
+
+autor: Elias Antony Conceição silva 
