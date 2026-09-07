@@ -131,4 +131,4 @@ Trabalho de Conclusão de Curso – Técnico em Eletromecânica.
 
 Projeto: Sistema Inteligente de Lubrificação por Dosagem.
 
-autor: Elias Antony Conceição silva 
+autor:Elias Antony Conceição Silva 
