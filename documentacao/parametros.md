@@ -2,7 +2,7 @@
 
 - Pulsos por dosagem: 5.500
 - Limite máximo de pulsos: 198.000
-- Temporização do motor: 810 µs
+- velocidade do motor: 810 µs
 - Intervalo entre dosagens: 10.000 ms
 - Driver: TB6600
 - Motor: NEMA 17 42HS48 PG14
