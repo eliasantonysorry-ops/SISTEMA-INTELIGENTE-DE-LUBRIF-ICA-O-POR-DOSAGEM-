@@ -115,8 +115,11 @@ O arquivo da interface Web disponibilizada no repositório está disponível em:
 
 ## GitHub Pages
 
-A interface Web publicada como página pode ser acessada pelo endereço disponibilizado pelo GitHub Pages.
+## Painel Web
 
+Acesse diretamente o painel de monitoramento do projeto:
+
+[ABRIR PAINEL DE MONITORAMENTO](https://eliasantonysorry-ops.github.io/SISTEMA-INTELIGENTE-DE-LUBRIF-ICA-O-POR-DOSAGEM-/)
 ## Trabalho de Conclusão de Curso
 
 Projeto desenvolvido no curso Técnico em Eletromecânica do Centro de Educação Profissional de Paragominas.
