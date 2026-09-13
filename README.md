@@ -113,8 +113,6 @@ O arquivo da interface Web disponibilizada no repositório está disponível em:
 
 [index.html](index.html)
 
-## GitHub Pages
-
 ## Painel Web
 
 Acesse diretamente o painel de monitoramento do projeto:
