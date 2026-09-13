@@ -16,20 +16,53 @@ As credenciais da rede são definidas no código por meio das variáveis:
 const char* SSID = "NOME_DA_SUA_REDE";
 const char* SENHA = "SENHA_DA_SUA_REDE";
 
-## 10. Procedimento para acesso ao painel Web pelo endereço IP
+Antes de utilizar o sistema, esses campos devem ser preenchidos com os dados da rede Wi-Fi que será utilizada.
 
-O sistema utiliza o servidor Web integrado ao ESP32 para disponibilizar uma interface de controle e monitoramento por meio da rede Wi-Fi. Para acessar essa interface, é necessário primeiro identificar o endereço IP atribuído ao ESP32.
 
-### 10.1 Identificação do endereço IP
+Exemplo:
 
-Após carregar o programa no ESP32, abrir o **Monitor Serial da Arduino IDE** e configurar a velocidade para **115200 baud**.
+const char* SSID = "MinhaRede";
+const char* SENHA = "MinhaSenha";
 
-Ao reiniciar o ESP32, o programa realiza a conexão com a rede Wi-Fi configurada. Quando a conexão é estabelecida, o endereço IP do dispositivo é apresentado no Monitor Serial.
+A senha real da rede não deve ser publicada no repositório.
 
-A informação poderá aparecer de maneira semelhante à apresentada abaixo:
+3. Conexão do ESP32 à rede Wi-Fi
 
-```text
+Após o ESP32 ser ligado e o programa ser iniciado, o sistema tenta estabelecer uma conexão com a rede Wi-Fi configurada.
+
+Enquanto a conexão não é estabelecida, o programa permanece aguardando:
+
+while(WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+}
+
+Quando a conexão é estabelecida, o programa informa no Monitor Serial:
+
+Wi-Fi conectado!
+
+Em seguida, o ESP32 apresenta o endereço IP recebido pela rede.
+
+4. Identificação do endereço IP
+
+O endereço IP é necessário para acessar o servidor Web do ESP32.
+
+O programa apresenta esse endereço no Monitor Serial utilizando:
+
+Serial.print("Endereço IP: ");
+Serial.println(WiFi.localIP());
+
+Após a conexão, o Monitor Serial poderá apresentar algo semelhante a:
+
 Conectando ao Wi-Fi...
 ..........
 Wi-Fi conectado!
 Endereço IP: 192.168.1.100
+
+O endereço:
+
+192.168.1.100
+
+é apenas um exemplo.
+
+O endereço real deve ser o número apresentado pelo próprio ESP32 no Monitor Serial.
