@@ -465,5 +465,5 @@ O SISTEMA
 
 O endereço IP utilizado no exemplo é apenas ilustrativo. Para cada utilização, deve ser utilizado o endereço IP apresentado pelo ESP32 no Monitor Serial.
 
-```
+```PROCEDIMENTO COMPLETO
 ```
